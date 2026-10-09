@@ -1,0 +1,13 @@
+#pag{
+    color:red;
+    border: red solid 2px;
+    font-size: 20px;
+    margin: 20px;
+margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.head{
+    color:  green;
+    border: black solid 2px;

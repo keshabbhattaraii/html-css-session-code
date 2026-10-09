@@ -1,0 +1,22 @@
+.collage-name{
+    /*Changes the background color */
+    background-color: aliceblue;
+    /*Changes the font size */
+    font-size: 50px;
+    /*Changes the font weight */
+    font-weight: bold;
+    /*Changes the font style */
+    text-decoration: underline;
+    /*Changes the font transform */
+    text-transform: lowercase;
+   /*Changes the text alignment */
+ text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    border:  solid black;
+    border-radius: 20px; 
+    opacity: 20px;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 200px;
+    margin-left: 50px;
+}

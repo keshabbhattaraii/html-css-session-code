@@ -1,0 +1,90 @@
+img{
+  height: 100px;
+  width: 100px;
+  
+  border-radius: 400px;
+  
+
+}.kes{
+  flex: 0 0 100px;
+}
+.transparent-box{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    /*Changes the background color */
+    background-color:bisque;
+    /*Changes the font size */
+    font-size: 10px;
+    /*Changes the font weight */
+    font-weight: bold;
+    /*Changes the font style */
+    text-decoration: underline;
+    /*Changes the font transform */
+    text-transform: lowercase;
+   /*Changes the text alignment */
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  
+    border-radius: 20px; 
+    opacity: 20px;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 200px;
+    border-radius: 20px;
+  transition: background-color 4s ease;
+  width: 500px; 
+
+  transition: color, border-radius 0.5s ease;
+  
+}
+textarea:focus{
+border: 5px solid red;
+
+}
+textarea:active{
+  background-color:blueviolet;
+}
+
+.transparent-box:hover{
+    background-color: bisque;
+    border-radius: 50px;
+}
+button {
+  background-color: rebeccapurple;
+  color: rebeccapurple;
+  opacity: 0.7; /* 50% transparent */
+  cursor: pointer;
+  border-radius: 200px;
+  transition: background-color 0.5s ease;
+
+}
+button:hover {
+  background-color: black
+}
+.my{
+  /* Smoothly transition the background color over 0.3 seconds */
+  transition: background-color 0.5s ease; 
+}
+
+.my:hover {
+  background-color: #ffeb3b; /* The highlight color (yellow) */
+  color: green;            /* Optional: changes text color for better contrast */
+}
+.pag{
+color: white;
+  transition: color 0.5s ease; 
+}
+.pag:hover{
+color: greenyellow;
+}
+label{
+    font-size: 30px;
+}
+.content{
+  flex: 1;
+  min-width: 0;
+  text-align: left;
+  padding-top:0px;
+  
+}
